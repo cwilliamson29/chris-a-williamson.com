@@ -3,35 +3,50 @@ body{
     font-size: 12pt;    
     /*background: gainsboro;*/
     background-image: url("../img/KMNB_background.jpg"); 
-    background-position: center;
+    background-position: left bottom;
     background-attachment: fixed;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     color: darkslategray;
     
 }
 
-@media screen and (min-width: 1200px){
+
+
+@media screen and (min-width: 1680px){
     body{     
-        background-size: 120%; 
+        background-size: 100%; 
+    }
+}
+
+@media screen and (max-width: 1680px){
+    body{     
+        background-size: 143%; 
     }
 }
 
 @media screen and (max-width: 1200px){
     body{     
-        background-size: 150%; 
+        background-size: 180%; 
     }
 }
 
 @media screen and (max-width: 800px){
     body{     
-        background-size: 180%; 
+        background-size: 230%; 
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    body{     
+        background-size: 285%; 
     }
 }
 
 @media screen and (max-width: 480px){
     body{     
-        background-size: 200%; 
+        background-size: 275%; 
     }
 }

@@ -31,6 +31,11 @@
         padding-top: 20px;
         padding-bottom: 10px;
         border-radius: 0 !important;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .navbar, .transparent, .navbar-inverse, .navbar-inner {
         background-color: transparent !important;
         background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00))) !important;
         background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%) !important;
@@ -50,6 +55,7 @@
         padding-top: 20px;
         padding-bottom: 10px;
         border-radius: 0 !important;
+        font-size: 10pt !important;
     }
 }
 
