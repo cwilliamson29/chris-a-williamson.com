@@ -73,3 +73,25 @@
         border-radius: 0 !important;
     }
 }
+
+@media screen and (min-width: 769px){
+    .branding-image{
+        display: none
+    }
+}
+
+@media screen and (max-width: 768px){
+    .branding-image{
+        display: block
+    }
+}
+    
+.navbar .navbar-nav{
+  display: inline-block !important;
+  float: none !important;
+  vertical-align: top !important;
+}
+
+.navbar .navbar-collapse{
+  text-align: center !important;
+}
