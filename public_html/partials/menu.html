@@ -15,14 +15,14 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="mainCtrl">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Photography</a></li>
-                <li><a href="#">Website Design</a></li>
-                <li><a href="#">Blog</a></li>
+                <li ng-class="{ active: isActive('/')}"> <a href="#!/">Home</a></li>
+                <li><a href="https://www.linkedin.com/pub/chris-williamson/2b/43a/867">Resume</a></li>
+                <li ng-class="{ active: isActive('/projects')}"><a href="#!projects">Projects</a></li>
+                <li ng-class="{ active: isActive('/photography')}"><a href="#!photography">Photography</a></li>
+                <li ng-class="{ active: isActive('/design')}"><a href="#!design">Website Design</a></li>
+                <li ng-class="{ active: isActive('/blog')}"><a href="#">Blog</a></li>
                 <li><a href="https://github.com/cwilliamson29">GitHub</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
