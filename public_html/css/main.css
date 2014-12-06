@@ -1,28 +1,88 @@
-html
-{
+.link-headers{
     height: 100%;
+    max-width: 1024px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top: 50px;
+    text-align: center;
 }
 
-img { max-width:100%; }
+.section-headers{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 4em;
+    color: white;
+}
+
+
+
+/* CSS for projects tab */
+
+.project-items{
+    max-width: 800px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 35px;
+    /*border: 2px solid;
+    border-color: yellow;*/
+
+}
+.PI-left{
+    width: 150px;
+    height: 70px;
+    margin-right: 15px;
+    margin-left: 15px;
+    /*margin-top: 50px;*/
+    padding-top: auto;
+    float: left;
+    /*border: 2px solid;
+    border-color: red;*/
+}
+
+.PI-right{
+    max-width: 575px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 25px;
+    padding: 15px;
+    float: left;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /*border: 2px solid;
+    border-color: white;*/
+}
+
+#ulbora-logo{
+    max-width: 150px;
+    margin-top: 35px;
+}
+#dslogo{
+    background-color: white;
+    border-radius: 15px;
+    max-height: 60px;
+    padding: 5px;
+    margin-top: 50px;
+}
+#dsbox{
+    margin-top: 35px;
+}
+#freelance{
+    background-color: white;
+    border-radius: 15px;
+    max-height: 60px;
+    margin-top: 26px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+/* END Section */
 
 
 .seperator{
     color: #c4996f;
     font-weight: bold;
-}
-
-/* Container*/
-.container-fluid{
-    max-width: 1024px;
-}
-#container-fluid2 {
-    max-width: 906px;
-    margin-right:auto;
-    margin-left:auto;
-}
-
-.carousel-control {
-    top: 33%;
 }
 
 #Bottom_Wrap {
@@ -31,10 +91,6 @@ img { max-width:100%; }
     max-width: 1024px;
     margin-right:auto;
     margin-left:auto;
-}
-
-#testdiv{
-    height: 2000px;
 }
 
 .center_image_desc{
@@ -50,14 +106,52 @@ img { max-width:100%; }
     padding-bottom: 2em;
 }
 
-@media screen and (max-width: 480px){
+/*@media screen and (max-width: 480px){
     .center_image_desc{    
         font-size: 16px
     }
-}
+    .section-headers{
+        font-size: 2.5em;
+    }
+}*/
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
     .center_image_desc{    
         font-size: 11px;
+    }
+    .section-headers{
+        font-size: 2em;
+    }
+    .PI-left{
+        height: 100%;
+        float: none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .PI-right{
+        margin: 9px;
+        padding: 9px;
+    }
+    #ulbora-logo{
+        max-width: 150px;
+        margin-top: auto;
+    }
+    #dslogo{
+        background-color: white;
+        border-radius: 15px;
+        max-height: 60px;
+        margin-top: 235px;
+        padding: 5px
+    }
+    #dsbox{
+        margin-top: 35px;
+    }
+    #freelance{
+        background-color: white;
+        border-radius: 15px;
+        height: 40px;
+        margin-top: 155px;
+        padding: 5px;
+        padding-top: 9px;
     }
 }

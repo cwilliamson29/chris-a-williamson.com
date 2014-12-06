@@ -95,3 +95,13 @@
 .navbar .navbar-collapse{
   text-align: center !important;
 }
+
+/* Container*/
+.container-fluid{
+    max-width: 1024px;
+}
+#container-fluid2 {
+    max-width: 906px;
+    margin-right:auto;
+    margin-left:auto;
+}

@@ -1,6 +1,6 @@
 'use strict';
 
-/* controllers */
+/* main site controllers */
 
 var cawControllers = angular.module('cawControllers', []);
 
