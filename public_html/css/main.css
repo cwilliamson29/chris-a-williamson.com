@@ -1,3 +1,12 @@
+.copyright{
+    max-width: 675px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    padding-top: 25px;
+}
 .link-headers{
     height: 100%;
     max-width: 1024px;
@@ -18,7 +27,6 @@
 
 
 /* CSS for projects tab */
-
 .project-items{
     max-width: 800px;
     margin-right:auto;
@@ -76,7 +84,6 @@
     padding: 5px;
     padding-top: 20px;
 }
-
 /* END Section */
 
 
@@ -97,7 +104,7 @@
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 24px;
     text-align: center;
-    color: grey; //#c4996f
+    color: grey; /* #c4996f */
     height: 100%;
     max-width: 1024px;
     margin-right:auto;
@@ -106,15 +113,8 @@
     padding-bottom: 2em;
 }
 
-/*@media screen and (max-width: 480px){
-    .center_image_desc{    
-        font-size: 16px
-    }
-    .section-headers{
-        font-size: 2.5em;
-    }
-}*/
 
+/* Media Queries for responsive elements */
 @media screen and (max-width: 480px){
     .center_image_desc{    
         font-size: 11px;
@@ -155,3 +155,4 @@
         padding-top: 9px;
     }
 }
+/* END MEDIA QUERIES */

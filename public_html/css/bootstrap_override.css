@@ -85,15 +85,15 @@
         display: block
     }
 }
-    
+
 .navbar .navbar-nav{
-  display: inline-block !important;
-  float: none !important;
-  vertical-align: top !important;
+    display: inline-block !important;
+    float: none !important;
+    vertical-align: top !important;
 }
 
 .navbar .navbar-collapse{
-  text-align: center !important;
+    text-align: center !important;
 }
 
 /* Container*/
