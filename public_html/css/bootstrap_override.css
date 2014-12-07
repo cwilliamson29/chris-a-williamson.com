@@ -48,7 +48,7 @@
         border-width: 0px  !important;
         -webkit-box-shadow: 0px 0px  !important;
         box-shadow: 0px 0px  !important;
-        max-width: 1024px !important;
+        max-width: 100% !important;
         margin-right:auto;
         margin-left:auto;
         margin-bottom: 0px !important;
@@ -64,13 +64,14 @@
         border-width: 0px  !important;
         -webkit-box-shadow: 0px 0px  !important;
         box-shadow: 0px 0px  !important;
-        max-width: 1024px !important;
+        max-width: 100% !important;
         margin-right:auto;
         margin-left:auto;
         margin-bottom: 0px !important;
         padding-top: 20px;
         padding-bottom: 10px;
         border-radius: 0 !important;
+        background-color: red;
     }
 }
 
@@ -98,10 +99,8 @@
 
 /* Container*/
 .container-fluid{
-    max-width: 1024px;
+    max-width: 100%;
 }
 #container-fluid2 {
-    max-width: 906px;
-    margin-right:auto;
-    margin-left:auto;
+    max-width: 95%;
 }
