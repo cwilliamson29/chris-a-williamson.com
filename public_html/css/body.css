@@ -24,24 +24,15 @@ body{
     color: darkslategray;
 }
 
-@media screen and (min-width: 1680px){
+@media screen and (min-width: 1681px){
     body{     
         background-size: 100%; 
-    }
-    footer {
-        width: 100%;
-        padding: 0 0 0 0;
-        float:left;
-        position:absolute;
-        bottom: 0;
-        height:60px;
-        margin: 1% 0 0 0;
-        text-align: center;
     }
     .footer {
         position: absolute;
         bottom: 0;
-        width: 100%;
+        width: 50%;
+        margin-left: 25%;
     }
     .wrapper {
         min-height: 100%;
@@ -62,7 +53,8 @@ body{
     .footer {
         position: absolute;
         bottom: 0;
-        width: 100%;
+        width: 50%;
+        margin-left: 25%;
     }
     .wrapper {
         min-height: 100%;
@@ -83,8 +75,8 @@ body{
     .footer {
         position: absolute;
         bottom: 0;
-        width: 100%;
-
+        width: 90%;
+        margin-left: 5%;
     }
     .wrapper {
         min-height: 100%;
@@ -99,9 +91,21 @@ body{
 }
 @media screen and (max-width: 1024px){
     .footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -4em;
+    }
+    .footer, .push {
+        height: 4em;
+        clear: both;
     }
 
 }

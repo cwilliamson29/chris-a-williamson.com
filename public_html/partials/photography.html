@@ -1,7 +1,13 @@
+<link href="css/photo-onload.css" rel="stylesheet" type="text/css"/>
+
 <div ng-controller="photoCtrl">
-    <a ng-click="family()">Family & Children Photography</a>
-<a ng-click="portrait()">Portrait Photography</a>
-<a ng-click="landscape()">Landscape Photography</a>
-<a ng-click="itemPhoto()">Item Photography</a>
-    <div ng-include src="pageinclude"> </div>
+    <div class="photo-links">
+        <a ng-click="family()">Family & Children Photography</a><span class='seperator'> • </span>
+        <a ng-click="portrait()">Portrait Photography</a><span class='seperator'> • </span>
+        <a ng-click="landscape()">Landscape Photography</a><span class='seperator'> • </span>
+        <a ng-click="itemPhoto()">Item Photography</a>
+    </div>
+    <div ng-include src="pageinclude" class="photo-content"></div>
 </div>
+
+
