@@ -268,13 +268,20 @@
 }
 
 @media screen and (max-width: 640px){
+    .section-headers{
+        width: 100%;
+        float: left;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 3em;
+        color: white;
+    }
     .PI-left{
-        height: 100%;
-        width: 95%;
-        float: none;
-        margin-right:auto;
-        margin-left:auto;
-        margin-top: 15px;
+        width: 50%;
+        float: left;
+        margin: 0 25% 0 25%;
     }
     .PI-right{
         width: 95%;
@@ -289,9 +296,8 @@
     #dslogo{
         background-color: white;
         border-radius: 15px;
-        max-height: 60px;
-        margin-top: 15px;
-        padding: 5px
+        padding: 5px;
+        height: 85px
     }
     #dswrapbox{
         margin-top: 15px;
@@ -304,22 +310,29 @@
     }
     .copyright{
         max-width: 95%;
+        margin: 0 2.5% 0 2.5%;
     }
 }
 
 @media screen and (max-width: 480px){
+    .section-headers{
+        width: 100%;
+        float: left;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2em;
+        color: white;
+    }
     .PI-left{
-        height: 100%;
-        width: 95%;
-        float: none;
-        margin-right:auto;
-        margin-left:auto;
-        margin-top: 15px;
+        width: 50%;
+        float: left;
+        margin: 0 25% 0 25%;
     }
     .PI-right{
         width: 95%;
-        margin: 9px;
-        margin-top: 15px;
+        margin: 3% 2.5% 0 2.5%;
         padding: 9px;
     }
     #ulbora-logo{
@@ -329,12 +342,8 @@
     #dslogo{
         background-color: white;
         border-radius: 15px;
-        max-height: 60px;
-        margin-top: 15px;
-        padding: 5px
-    }
-    #dswrapbox{
-        margin-top: 15px;
+        padding: 5px;
+        height: 85px;
     }
     #freelance{
         background-color: white;
@@ -344,6 +353,6 @@
     }
     .copyright{
         max-width: 95%;
-
+        margin: 0 2.5% 0 2.5%;
     }
 }
