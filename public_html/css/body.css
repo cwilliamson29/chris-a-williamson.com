@@ -84,7 +84,7 @@ body{
         position: absolute;
         bottom: 0;
         width: 100%;
-        
+
     }
     .wrapper {
         min-height: 100%;
@@ -121,5 +121,10 @@ body{
 @media screen and (max-width: 480px){
     body{     
         background-size: 285%; 
+    }
+}
+@media screen and (max-width: 350px){
+    body{     
+        background-size: 320%; 
     }
 }
