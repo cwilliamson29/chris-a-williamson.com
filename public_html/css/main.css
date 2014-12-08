@@ -20,14 +20,6 @@
     padding-top: 50px;
     text-align: center;
 }
-
-.section-headers{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 4em;
-    color: white;
-}
 .seperator{
     color: #c4996f;
     font-weight: bold;
