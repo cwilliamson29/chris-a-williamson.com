@@ -3,9 +3,7 @@ To fix future issues with footer change the position
 in the media queries. Note for Chris W.
 *****************/
 
-* {
-    margin: 0;
-}
+
 html{
     height: 100%;
 }
@@ -31,8 +29,10 @@ body{
     .footer {
         position: absolute;
         bottom: 0;
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+
     }
     .wrapper {
         min-height: 100%;
@@ -53,8 +53,9 @@ body{
     .footer {
         position: absolute;
         bottom: 0;
-        width: 50%;
-        margin-left: 25%;
+        width: 90%;
+        margin-left: 5%;
+
     }
     .wrapper {
         min-height: 100%;
@@ -75,8 +76,9 @@ body{
     .footer {
         position: absolute;
         bottom: 0;
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
+
     }
     .wrapper {
         min-height: 100%;
@@ -91,7 +93,7 @@ body{
 }
 @media screen and (max-width: 1024px){
     .footer {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 90%;
         margin-left: 5%;
@@ -107,28 +109,93 @@ body{
         height: 4em;
         clear: both;
     }
-
 }
 @media screen and (max-width: 800px){
     body{     
         background-size: 250%; 
     }
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 90%;
+        margin-left: 5%;
 
+    }
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -4em;
+    }
+    .footer, .push {
+        height: 4em;
+        clear: both;
+    }
 }
 
 @media screen and (max-width: 640px){
     body{     
         background-size: 295%; 
     }
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -4em;
+    }
+    .footer, .push {
+        height: 4em;
+        clear: both;
+    }
 }
 
 @media screen and (max-width: 480px){
     body{     
         background-size: 285%; 
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -4em;
+    }
+    .footer, .push {
+        height: 4em;
+        clear: both;
     }
 }
 @media screen and (max-width: 350px){
     body{     
         background-size: 320%; 
+    }
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -4em;
+    }
+    .footer, .push {
+        height: 4em;
+        clear: both;
     }
 }
