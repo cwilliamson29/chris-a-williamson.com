@@ -1,0 +1,37 @@
+@media screen and (min-width: 1680px){
+    .website-design{
+        
+        background-color: red;
+        /**/
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+    }
+    .graphic-design{
+        
+    }
+}
+
+@media screen and (max-width: 1680px){
+
+}
+
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 640px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+@media screen and (max-width: 350px){
+
+}

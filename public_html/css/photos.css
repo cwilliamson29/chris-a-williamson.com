@@ -29,6 +29,14 @@
         width: 17%;
         float: left;
     }
+    #comingSoon{
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        margin: 5%;
+        width: 90%;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 1680px){
