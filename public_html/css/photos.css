@@ -65,23 +65,197 @@
 }
 
 @media screen and (max-width: 1280px){
-
+    .photo-links{
+        width: 100%;
+        text-align: center;
+        font-size: 1.25em;
+        color: white;
+    }
+    .photo-header{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .photo-content{
+        width: 60%;
+        margin: 1% 20% 1% 20%;
+        float: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+    }
+    .picture-wrap{
+        margin: 5%;
+        width: 40%;
+        float: left;
+    }
+    .picture-wrap-portrait{
+        margin: 5% 16.5% 5% 16.5%;
+        width: 17%;
+        float: left;
+    }
 }
 @media screen and (max-width: 1024px){
-
+    .photo-links{
+        width: 100%;
+        text-align: center;
+        font-size: 1.25em;
+        color: white;
+    }
+    .photo-header{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .photo-content{
+        width: 80%;
+        margin: 0.5% 10% 0.5% 10%;
+        float: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+    }
+    .picture-wrap{
+        margin: 5%;
+        width: 40%;
+        float: left;
+    }
+    .picture-wrap-portrait{
+        margin: 5% 16.5% 5% 16.5%;
+        width: 17%;
+        float: left;
+    }
 }
 @media screen and (max-width: 800px){
-
+    .photo-links{
+        width: 100%;
+        text-align: center;
+        font-size: 1.15em;
+        color: white;
+    }
+    .photo-header{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .photo-content{
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+        float: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+    }
+    .picture-wrap{
+        margin: 5%;
+        width: 40%;
+        float: left;
+    }
+    .picture-wrap-portrait{
+        margin: 5% 16.5% 5% 16.5%;
+        width: 17%;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 640px){
-
+    .photo-links{
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+    }
+    .photo-header{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .photo-content{
+        width: 90%;
+        margin: 0.5% 5% 0.5% 5%;
+        float: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+    }
+    .picture-wrap{
+        margin: 5%;
+        width: 40%;
+        float: left;
+    }
+    .picture-wrap-portrait{
+        margin: 5% 16.5% 5% 16.5%;
+        width: 17%;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 480px){
-
+    .photo-links{
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+    }
+    .photo-header{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .photo-content{
+        width: 90%;
+        margin: 0.5% 5% 0.5% 5%;
+        float: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+    }
+    .picture-wrap{
+        margin: 5%;
+        width: 90%;
+        float: left;
+    }
+    .picture-wrap-portrait{
+        margin: 5%;
+        width: 90%;
+        float: left;
+    }
 }
 @media screen and (max-width: 350px){
-
+    .photo-links{
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+    }
+    .photo-header{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .photo-content{
+        width: 90%;
+        margin: 0.5% 5% 0.5% 5%;
+        float: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: white;
+    }
+    .picture-wrap{
+        margin: 5%;
+        width: 90%;
+        float: left;
+    }
+    .picture-wrap-portrait{
+        margin: 5%;
+        width: 90%;
+        float: left;
+    }
 }
 
