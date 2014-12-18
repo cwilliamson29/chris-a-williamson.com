@@ -4,6 +4,24 @@
 
 var cawControllers = angular.module('cawControllers', []);
 
+cawControllers.controller('blogCtrl', ['$scope', '$location',
+    function blogCtrl($scope) {
+        $scope.bloglist = [
+            {
+                "_id": 1,
+                "date": 1400623623107,
+                "introText": "This a blog post about Angular JS. We will cover how to build",
+                "blogText": "This a blog post about Angular JS. We will cover how to build a blog and how to add comments to the blog post.",
+            },
+            {
+                "_id": 2,
+                "date": 1400623623107,
+                "introText": "In this blog post we will learn how to buld applications based on REST",
+                "blogText": "In this blog post we will learn how to buld applications based on REST web services that contain most of the business logic needed for the application.",
+            },
+        ]
+    }])
+
 cawControllers.controller('mainCtrl', ['$scope', '$location',
     function mainCtrl($scope, $location) {
         $scope.isActive = function (viewLocation) {

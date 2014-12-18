@@ -34,6 +34,11 @@ cawSite.config(['$routeProvider', '$locationProvider',
                     templateUrl: 'partials/contact.html',
                     controller: 'contactCtrl'
                 });
+        $routeProvider.
+            when('/blog', {
+                templateUrl: 'partials/blog.html',
+                controller: 'blogCtrl'
+            });
 
         $locationProvider.html5Mode(false).hashPrefix('!');
 
