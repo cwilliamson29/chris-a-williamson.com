@@ -4,7 +4,8 @@
 
 var cawSite = angular.module('cawSite', [
     'ngRoute',
-    'cawControllers'
+    'cawControllers',
+    'BlogServices'
 ]);
 
 cawSite.config(['$routeProvider', '$locationProvider',
