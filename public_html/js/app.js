@@ -9,36 +9,33 @@ var cawSite = angular.module('cawSite', [
 
 cawSite.config(['$routeProvider', '$locationProvider',
     function ($routeProvider, $locationProvider) {
+
+        // can either use $routeProvider for each template or or simply 
+        // type }).when after each route
+
         $routeProvider.
                 when('/', {
                     templateUrl: 'partials/main.html',
                     controller: 'mainCtrl'
-                });
-        $routeProvider.
-                when('/projects', {
+                }).when('/projects', {
                     templateUrl: 'partials/projects.html',
                     controller: 'projCtrl'
-                });
-        $routeProvider.
-                when('/photography', {
+                }).when('/photography', {
                     templateUrl: 'partials/photography.html',
                     controller: 'photoCtrl'
-                });
-        $routeProvider.
-                when('/design', {
+                }).when('/design', {
                     templateUrl: 'partials/design.html',
                     controller: 'designCtrl'
-                });
-        $routeProvider.
-                when('/contact', {
+                }).when('/contact', {
                     templateUrl: 'partials/contact.html',
                     controller: 'contactCtrl'
+                }).when('/blog', {
+                    templateUrl: 'partials/blog.html',
+                    controller: 'blogCtrl'
+                }).when('/blogPost/:id', {
+                    templateUrl: 'partials/blogPost.html',
+                    controller: 'blogViewCtrl'
                 });
-        $routeProvider.
-            when('/blog', {
-                templateUrl: 'partials/blog.html',
-                controller: 'blogCtrl'
-            });
 
         $locationProvider.html5Mode(false).hashPrefix('!');
 
